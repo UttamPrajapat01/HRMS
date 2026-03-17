@@ -97,7 +97,7 @@ public class OrganizationController : ControllerBase
                 Data = organization
             });
     }
-
+    // Get All Organization using this [HttpGet] API ----
     // ✅ GET ALL ORGANIZATIONS
     [HttpGet]
     [Authorize(Roles = "Admin")]
