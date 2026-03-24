@@ -68,7 +68,7 @@ public class OrganizationController : ControllerBase
         using var transaction = await _context.Database.BeginTransactionAsync();
         try
         {
-            // Save organization
+            // Save organization to using a await _context.SaveChangesAsync()
             _context.Organizations.Add(organization);
             await _context.SaveChangesAsync();
 
