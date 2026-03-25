@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+// Using this Class Gate all Organization related information
 namespace HRMS.Domain.Entities
 {
     public class Organization
