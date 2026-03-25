@@ -1,5 +1,6 @@
 ﻿using System;
 
+// Using this Employee Class get all information about the employees
 namespace HRMS.Domain.Entities
 {
     public class Employee
