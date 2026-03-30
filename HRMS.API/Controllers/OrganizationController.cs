@@ -126,7 +126,7 @@ public class OrganizationController : ControllerBase
             Data = organizations
         });
     }
-
+    // Get Organization By ID
     // ✅ GET ORGANIZATION BY ID
     [HttpGet("{id}")]
     [Authorize]
