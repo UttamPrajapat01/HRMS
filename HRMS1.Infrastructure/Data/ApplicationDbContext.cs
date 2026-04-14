@@ -23,7 +23,7 @@ namespace HRMS.Infrastructure.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // ✅ Make Employee Email UNIQUE
+            
             modelBuilder.Entity<Employee>()
                 .HasIndex(e => e.Email)
                 .IsUnique();
