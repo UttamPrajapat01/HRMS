@@ -31,7 +31,7 @@ namespace HRMS.API.Controllers
             _logger = logger;
         }
 
-        // ✅ GET Employees from using a httpGet("all) API
+        // ✅ GET Employees
         [HttpGet("all")]
         [Authorize(Roles = "Admin,HR")]
         public async Task<IActionResult> GetAll()
