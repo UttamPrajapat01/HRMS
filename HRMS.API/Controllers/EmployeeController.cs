@@ -10,8 +10,6 @@ using Microsoft.Extensions.Logging;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 
-// This is a Employee Controller --
-
 namespace HRMS.API.Controllers
 {
     [ApiController]
